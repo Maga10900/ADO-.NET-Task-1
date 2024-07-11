@@ -1,0 +1,36 @@
+﻿<Window x:Class="ADO_NET.SignUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADO_NET"
+        mc:Ignorable="d"
+        Title="SignUpWindow" Height="750" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <Label Content="Name" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <TextBox Name="NameTXT" Height="30" FontSize="25" Width="250" Background="LightGray" BorderThickness="0" Margin="0 0 0 30"/>
+
+            <Label Content="Surname" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <TextBox Name="SurnameTXT" Height="30" FontSize="25" Width="250" Background="LightGray" BorderThickness="0" Margin="0 0 0 30"/>
+
+            <Label Content="Age" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <TextBox Name="AgeTXT" Height="30" FontSize="25" Width="250" Background="LightGray" BorderThickness="0" Margin="0 0 0 30"/>
+
+            <Label Content="Login" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <TextBox Name="LoginTXT" Height="30" FontSize="25" Width="250" Background="LightGray" BorderThickness="0" Margin="0 0 0 30"/>
+
+            <Label Content="Password" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <TextBox Name="PasswordTXT" Height="30" FontSize="25" Width="250" Background="LightGray" BorderThickness="0" Margin="0 0 0 30"/>
+
+            <Label Content="Conrfirm Password" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <TextBox Name="C_PasswordTXT" Height="30" FontSize="25" Width="250" Background="LightGray" BorderThickness="0" Margin="0 0 0 30"/>
+
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="SignUpBTN" Height="50" Width="170" Margin="0 0 20 0" Background="Azure" Content="Sign Up" FontSize="30" FontWeight="Bold" Click="SignUpBTN_Click_1"/>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
